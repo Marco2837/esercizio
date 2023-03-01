@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="datiUtenti" action="pagRisposta.php" method="post">
+        nome: <input type="text" name="name">
+        <br>
+        cognome: <input type="text" name="surname">
+        <br>
+        codice fiscale: <input type="text" name="cf"maxlength="16">
+        <br>
+        età: <input type="number" name="età" >
+        <br>
+        data di nascita: <input type="date" name="dataN">
+        <br>
+        e-mail: <input type="email" name="email">
+        <br>
+        sesso:
+        m<input type="radio" name="gender" value="m">
+        f<input type="radio" name="gender" value="f">
+        n<input type="radio" name="gender" value="n" checked><br>
+        <br>
+        colore preferito: <input type="color" name="colore">
+        <br>
+        telefono <input type="tel" name="tel">
+        <br>
+        <input type="submit" value="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
